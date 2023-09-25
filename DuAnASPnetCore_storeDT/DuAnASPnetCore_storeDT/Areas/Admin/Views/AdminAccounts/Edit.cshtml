@@ -1,0 +1,72 @@
+﻿@model DuAnASPnetCore_storeDT.Models.Account
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h1>Sửa thông tin tài khoản</h1>
+<hr />
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Account</h4>
+            <form class="forms-sample" asp-action="Edit">
+
+                <input type="hidden" asp-for="Tkid" />
+                <div class="form-group row">
+                    <label for="exampleInputUsername2" class="col-sm-3 col-form-label">UserName</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkusername" class="form-control text-info" id="exampleInputUsername2" placeholder="Lê Như Nghĩa">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkpassword" class="form-control text-info" id="exampleInputEmail2" placeholder="*********">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputMobile" class="col-sm-3 col-form-label">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkname" class="form-control text-info" id="exampleInputMobile" placeholder="Nghĩa">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" asp-for="Tkemail" class="form-control text-info" id="exampleInputPassword2" placeholder="*****gmail.com">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Phone</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkphone" class="form-control text-info" id="exampleInputConfirmPassword2" placeholder="+8423456789">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">DateTime</label>
+                    <div class="col-sm-9">
+                        <input type="datetime" asp-for="Tkdate" class="form-control text-info" id="exampleInputConfirmPassword2" placeholder="dd/mm/yyyy">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">LoaiTaiKhoan</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="LoaiTaiKhoan" class="form-control text-info" id="exampleInputConfirmPassword2" placeholder="loại tài khoản">
+                    </div>
+                </div>
+                <div class="form-check form-check-flat form-check-primary">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input"> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary me-2">Submit</button>
+                <a asp-action="Index" class="btn btn-dark">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>
+

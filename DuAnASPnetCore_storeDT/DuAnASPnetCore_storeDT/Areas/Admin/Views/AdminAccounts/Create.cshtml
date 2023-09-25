@@ -1,0 +1,73 @@
+﻿@model DuAnASPnetCore_storeDT.Models.Account
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Tạo tài khoản mới</h1>
+<hr />
+
+<div class="col-md-6 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Account</h4>
+            <form class="forms-sample" asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">UserName</label>
+                    <div class="col-sm-9">
+                        <input asp-for="Tkusername" class="form-control text-info" placeholder="Lê Như Nghĩa" />
+                    </div>
+                    <span asp-validation-for="Tkusername" class="text-danger"></span>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkpassword" class="form-control text-info" placeholder="*********">
+                    </div>
+                    <span asp-validation-for="Tkpassword" class="text-danger"></span>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkname" class="form-control text-info" placeholder="Nghĩa">
+                    </div>
+                    <span asp-validation-for="Tkname" class="text-danger"></span>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" asp-for="Tkemail" class="form-control text-info" placeholder="*****gmail.com">
+                    </div>
+                    <span asp-validation-for="Tkemail" class="text-danger"></span>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">Phone</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="Tkphone" class="form-control text-info" placeholder="+8423456789">
+                    </div>
+                    <span asp-validation-for="Tkphone" class="text-danger"></span>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">DateTime</label>
+                    <div class="col-sm-9">
+                        <input type="datetime" asp-for="Tkdate" class="form-control text-info" placeholder="dd/mm/yyyy">
+                    </div>
+                    <span asp-validation-for="Tkdate" class="text-danger"></span>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-3 col-form-label">LoaiTaiKhoan</label>
+                    <div class="col-sm-9">
+                        <input type="text" asp-for="LoaiTaiKhoan" class="form-control text-info" placeholder="loại tài khoản">
+                    </div>
+                    <span asp-validation-for="LoaiTaiKhoan" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary me-2" />
+                    <a asp-action="Index" class="btn btn-dark">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

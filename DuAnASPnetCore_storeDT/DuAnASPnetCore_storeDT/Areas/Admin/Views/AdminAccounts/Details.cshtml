@@ -1,0 +1,61 @@
+﻿@model DuAnASPnetCore_storeDT.Models.Account
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h1>CHI TIẾT TÀI KHOẢN</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            ID
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tkusername)
+        </dd>
+        <dt class = "col-sm-2">
+            Password
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tkpassword)
+        </dd>
+        <dt class = "col-sm-2">
+            Name
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tkname)
+        </dd>
+        <dt class = "col-sm-2">
+            Email
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tkemail)
+        </dd>
+        <dt class = "col-sm-2">
+            Phone
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tkphone)
+        </dd>
+        <dt class = "col-sm-2">
+            DateTime
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tkdate)
+        </dd>
+        <dt class = "col-sm-2">
+            Loại tài khoản
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LoaiTaiKhoan)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a type="button" class="btn btn-outline-warning btn-fw" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Edit" asp-route-id="@Model.Tkid">Edit</a>
+    <a type="button" class="btn btn-outline-secondary btn-fw" asp-area="Admin" asp-controller="AdminAccounts" asp-action="Index">Back to List</a>
+</div>
