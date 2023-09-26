@@ -1,0 +1,68 @@
+﻿@model DuAnASPnetCore_storeDT.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            ID
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+        <dt class="col-sm-2">
+            ProductName
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+        <dt class="col-sm-2">
+            Images
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProductImg)
+        </dd>
+        <dt class="col-sm-2">
+            Price
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            Quantity
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProductQuantity)
+        </dd>
+        <dt class="col-sm-2">
+            Descriptions
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descriptions)
+        </dd>
+        <dt class="col-sm-2">
+            Category
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CategoryId)
+        </dd>
+        <dt class="col-sm-2">
+            Nhà cung cấp
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nccid)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a type="button" class="btn btn-outline-warning btn-fw" asp-area="Admin" asp-controller="AdminProducts" asp-action="Edit" asp-route-id="@Model.ProductId">Edit</a>
+    <a type="button" class="btn btn-outline-secondary btn-fw" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">Back to List</a>
+</div>
+

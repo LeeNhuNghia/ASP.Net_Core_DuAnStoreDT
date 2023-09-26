@@ -1,0 +1,59 @@
+﻿@model IEnumerable<DuAnASPnetCore_storeDT.Models.Product>
+
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Quản lý sản phẩm</h4>
+            <a type="button" class="btn btn-outline-success btn-fw mb-4" asp-area="Admin" asp-controller="AdminProducts" asp-action="Create">Create</a>
+            <div class="table-responsive">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col"> ID </th>
+                            <th scope="col"> ProductName </th>
+                            <th scope="col"> Images </th>
+                            <th scope="col"> Price </th>
+                            <th scope="col"> Quantity </th>
+                            <th scope="col"> Category </th>
+                            <th scope="col"> Nhà cung cấp </th>
+                            <th scope="col"> Descriptions </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td scope="row"> @item.ProductId </td>
+                                    <td> @item.ProductName </td>
+                                    <td> @item.ProductImg </td>
+                                    <td> @item.Price </td>
+                                    <td> @item.ProductQuantity</td>
+                                    <td> @item.CategoryId</td>
+                                    <td> @item.Nccid</td>
+                                    <td> @item.Descriptions</td>
+                                    <td>
+                                        <div class="card-body">
+                                            <div class="template-demo">
+                                                <a type="button" class="btn btn-outline-secondary btn-fw" asp-area="Admin" asp-controller="AdminProducts" asp-action="Details" asp-route-id="@item.ProductId">View</a>
+                                                <a type="button" class="btn btn-outline-warning btn-fw" asp-area="Admin" asp-controller="AdminProducts" asp-action="Edit" asp-route-id="@item.ProductId">Edit</a>
+                                                <a type="button" class="btn btn-outline-danger btn-fw" asp-area="Admin" asp-controller="AdminProducts" asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

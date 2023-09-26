@@ -85,7 +85,6 @@ D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\Du
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\DuAnASPnetCore_storeDT.csproj.AssemblyReference.cache
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\DuAnASPnetCore_storeDT.GeneratedMSBuildEditorConfig.editorconfig
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\DuAnASPnetCore_storeDT.AssemblyInfoInputs.cache
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\DuAnASPnetCore_storeDT.AssemblyInfo.cs
@@ -446,3 +445,16 @@ D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\Du
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Details.cshtml.g.cs
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Edit.cshtml.g.cs
 D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminAccounts\Index.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Shared\_footerPartialView.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Shared\_headerPartialView.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Shared\_navigationPartialView.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Store\Index.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\DuAnASPnetCore_storeDT.csproj.AssemblyReference.cache
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Store\Smartphones.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Store\Laptops.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Views\Store\Accessories.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Create.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Delete.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Details.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Edit.cshtml.g.cs
+D:\HOC_TAP\LTrinh_Web_NangCao\ASP.Net_Core_DuAnStoreDT\DuAnASPnetCore_storeDT\DuAnASPnetCore_storeDT\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminProducts\Index.cshtml.g.cs
