@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 #nullable disable
 
 namespace DuAnASPnetCore_storeDT.Models
@@ -15,7 +16,7 @@ namespace DuAnASPnetCore_storeDT.Models
         public string Descriptions { get; set; }
         public string CategoryId { get; set; }
         public string Nccid { get; set; }
-
+        
         public virtual Category Category { get; set; }
         public virtual NhaCungCap Ncc { get; set; }
     }

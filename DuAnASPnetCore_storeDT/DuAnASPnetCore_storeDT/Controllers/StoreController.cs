@@ -20,20 +20,13 @@ namespace DuAnASPnetCore_storeDT.Controllers
         {
             return View();
         }
-
-        public IActionResult Smartphones()
+        public IActionResult PhanLoai(string idcat)
         {
-            return View();
+            var obj = db.Products.Where(w => w.CategoryId == idcat).ToList();
+            
+            //var lstProduct = db.Products.ToList();
+            return View(obj);
         }
-
-        public IActionResult Laptops()
-        {
-            return View();
-        }
-
-        public IActionResult Accessories()
-        {
-            return View();
-        }
+        
     }
 }

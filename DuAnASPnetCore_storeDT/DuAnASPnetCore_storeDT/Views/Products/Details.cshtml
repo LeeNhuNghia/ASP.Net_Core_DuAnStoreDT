@@ -1,0 +1,61 @@
+﻿@model DuAnASPnetCore_storeDT.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductImg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProductImg)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductQuantity)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProductQuantity)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Descriptions)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descriptions)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ncc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ncc.Nccid)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ProductId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
